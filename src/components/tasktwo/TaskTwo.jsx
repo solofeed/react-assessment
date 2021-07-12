@@ -6,29 +6,15 @@ import {
   StyledList,
   Task
 } from '@components/styled-components/Task';
-
-const modals = [
-  {
-    title: 'Data loading modal: ',
-    alt: 'Data loading modal',
-    src: 'images/data_loading.png'
-  },
-  {
-    title: 'Delete files modal: ',
-    alt: 'Delete files modal',
-    src: 'images/delete_files.png'
-  },
-  {
-    title: 'Delete report and history modal: ',
-    alt: 'Delete report and history modal',
-    src: 'images/delete_report_and_history.png'
-  },
-];
+import ModalList from './ModalList';
+import { modals } from './constants';
 
 const TaskTwo = () => (
   <Task>
     <Heading>Task Two</Heading>
     <Content>
+      <h2>Result</h2>
+      <ModalList />
       <h4>Complete the following task:</h4>
       <p>
         This is to assess your ability to design and build React components.

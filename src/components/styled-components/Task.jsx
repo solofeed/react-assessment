@@ -6,9 +6,11 @@ export const Task = styled.div`
   width: 800px;
   margin: auto;
 `;
+
 export const Content = styled.div`
   text-align: justify;
 `;
+
 export const StyledList = styled.ol`
   text-align: justify;
   
@@ -16,9 +18,11 @@ export const StyledList = styled.ol`
     line-height: 2;
   }
 `;
+
 export const Heading = styled.h1`
   color: #216298;
 `;
+
 export const DesignList = styled.div`
   display: flex;
   flex-direction: column;
